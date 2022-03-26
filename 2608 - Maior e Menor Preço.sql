@@ -1,0 +1,8 @@
+SELECT PRICE , 
+     (SELECT PRICE 
+      FROM products
+			ORDER BY 1 
+			LIMIT 1) 
+FROM products
+ORDER BY 1 DESC
+LIMIT 1; 

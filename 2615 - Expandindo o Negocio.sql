@@ -1,0 +1,6 @@
+SELECT DISTINCT CITY 
+FROM customers2
+
+'''SELECT CITY 
+FROM customers2
+GROUP BY 1'''

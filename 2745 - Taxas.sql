@@ -1,0 +1,4 @@
+ SELECT NAME, 
+ 		ROUND(SALARY*0.1,2) AS TAX
+ FROM people
+ WHERE salary > 3000
